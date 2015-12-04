@@ -19,4 +19,22 @@ public class User implements Serializable {
     @Setter
     @Getter
     private BigDecimal money;
+
+    public User() {
+    }
+
+    public User(String grade,int age,BigDecimal money) {
+        this.grade = grade;
+        this.age = age;
+        this.money = money;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "grade='" + grade + '\'' +
+                ", age=" + age +
+                ", money=" + money +
+                '}';
+    }
 }
