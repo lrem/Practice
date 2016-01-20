@@ -1,5 +1,7 @@
 package com.apache.example.string;
 
+import java.util.Random;
+
 /**
  * Created by zhongjing on 2015/11/12 0012.
  */
